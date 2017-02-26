@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Wikingfoto</title>
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/logo_inverted.png" />
+    </head>
+    <body>
+ 
+        <nav class="senap hidden"> 
+            <img alt ="take me back" title="take me back" src ="./img/logo.png" onclick="hideMenu()">
+            <a href="index.html"><p> Hem</p> </a>
+            <a href="kalle.html"><p> Kameror &amp; objektiv</p> </a>
+            <a href="kalle.html"><p> Kameratillbehör</p> </a>
+            <a href="kalle.html"><p> Fototjänster</p> </a>            
+            <a href="kalle.html"><p> Om oss</p> </a>
+            <a href="kalle.html"><p> Kontakt</p> </a>
+        </nav>
+
+        <header>
+            <a href="index.html"><img class="site_logo"alt ="Home" title="Home" src ="./img/site_logo.png"> </a>
+        </header>
+        
+        <ul>
+            <li> <a href="index.html">Hem</a></li>
+            <li onclick="dropMenu1()"> <a href="#">Kameror &amp; objektiv</a>
+                <ul id="subMenu1" class="hidden">
+                    <li> <a href="kalle.html">Canon</a></li>
+                    <li> <a href="kalle.html">Nikon</a></li>
+                    <li> <a href="kalle.html">Sony</a></li>
+                    <li> <a href="kalle.html">Specialerbjudanden</a></li>
+                </ul>
+            </li>
+            <li onclick="dropMenu2()"> <a href="#">Kameratillbehör</a>
+                <ul id="subMenu2" class="hidden">
+                    <li> <a href="kalle.html">Blixt</a></li>
+                    <li> <a href="kalle.html">Tripod</a></li>
+                    <li> <a href="kalle.html">Kameraväska</a></li>
+                    <li> <a href="kalle.html">Specialerbjudanden</a></li>
+                </ul>
+            </li>
+            <li> <a href="kalle.html">Fototjänster</a></li>
+            <li> <a href="kalle.html">Om oss</a></li>
+            <li> <a href="kalle.html">Kontakt</a></li>
+        </ul>
+        
+        <nav class="dropbox" onclick="showMenu()">
+            <img class="dropbox_img"alt ="dropbox" title="dropbox" src ="./img/logo.png">
+        </nav>
+    
+        <div id="one">
+            <div class="heading">
+                <h1> VÄLKOMMEN TILL WIKINGFOTO! </h1>
+            </div>
+            <div class="paragraph">
+                Morbi elementum venenatis mauris, porttitor vitae. Sed aliquet venenatis elementum. Praesent orci mauris, pulvinar nec ultricies sit amet, fermentum at urna. Ut eget libero massa. Ut magna nisl, hendrerit.
+            </div>
+        </div>
+
+        <article class="coolpix">
+            <div class="text_and_picture">
+                <div class="heading">
+                    <h2> NIKON COOLPIX P900 </h2>
+                </div>
+                <section class="coolpix_promotion">
+                    <div class="paragraph">                
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id finibus orci, et consectetur risus. Donec porta sed enim sit amet varius. Donec vitae risus est. Duis scelerisque, mauris elementum feugiat auctor, arcu purus egestas lacus, eu egestas ex risus vel leo. Pellentesque cursus tellus et ligula pharetra, hendrerit fringilla metus laoreet. Vestibulum consequat convallis diam, vel molestie elit commodo vel.
+                    </div>
+                    <img class="coolpix_pic" alt ="Nikon Coolpix P900" title="Nikon Coolpix P900" src ="./img/Nikon_Coolpix_P900.png">
+                </section>
+            </div>
+
+            <section class="video">
+                <aside class="button">
+                    <a href="kalleanka.html">LÄS MER!</a>
+                </aside>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Clg7rQB6H2U" frameborder="0" allowfullscreen></iframe>
+                <aside class="button">
+                    <a href="kalleanka.html">KÖP NU!</a>
+                </aside>
+            </section>
+        </article>
+
+        <article class="slider_article">
+            <div class="slider" id="main-slider">
+                <div class="slider-wrapper">
+                    <img src="./img/camera1.jpg" alt="First" class="slide" />
+                    <img src="./img/camera2.jpg" alt="Second" class="slide" />
+                    <img src="./img/camera3.jpeg" alt="Third" class="slide" />
+                </div>
+            </div>	
+        </article>
+
+        <article>
+            <section id="one" class="box">
+                <a href="kalleanka.html"><img class="test" alt ="Fototjänster" title="Fototjänster" src ="./img/square1.jpg"> </a>
+            </section>
+
+            <section id="two" class="box">
+                <a href="kalleanka.html"><img class="test" alt ="Erbjudande" title="Erbjudande" src ="./img/square2.jpg"> </a>
+            </section>  
+        </article>
+        
+        <footer>
+            <div id="one" class="footerbox">
+                <div class="small_footerbox">
+                    <div class="heading">
+                        <h2> BUTIK </h2>
+                    </div>
+                    <p> Wiking Fotografi AB</p>
+                    <p> Låtsasgatan 9 </p>
+                    <p> 420 69 Alingsås</p>
+                </div>
+                <div class="small_footerbox">
+                    <div class="heading">
+                        <h2> ÖPPETTIDER </h2>
+                    </div>
+                    <p> Mån-fre 9-20 </p>
+                    <p> Lör-sön 12-16 </p>
+                </div>
+            </div>
+            <div id="two" class="footerbox">
+                <img class="coolpix_pic" alt ="Wikingfoto" title="Wikingfoto" src ="./img/footer.png">
+            </div>
+            <div id="three" class="footerbox">
+                <div id="three" class="small_footerbox">
+                    <div class="heading">
+                        <h2> KONTAKT </h2>
+                    </div>
+                    <p> 031-420 420</p>
+                    <p> info@wikingfoto.se </p>
+                </div>
+                <div id="four" class="small_footerbox">
+                    <div class="heading">
+                        <h2> FÖLJ OSS </h2>
+                    </div>
+                    <a href="https://www.facebook.com/"><img id="facebook" class="logo" alt ="Facebook" title="Facebook" src ="./img/facebook.png"> </a>
+                    <a href="https://www.instagram.com/"><img id="instagram" class="logo" alt ="Instagram" title="Instagram" src ="./img/instagram.png"> </a>
+                </div>
+            </div>
+        </footer>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html> 
